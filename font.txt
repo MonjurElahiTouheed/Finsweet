@@ -1,0 +1,61 @@
+font-family: "Poppins", serif;
+font-family: "Manrope", serif;
+
+color: #282938;
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+
+    h2 {
+    color: #282938;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+
+
+    p {
+    color: rgba(40, 41, 56, 0.7);
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    line-height: 28px;
+
+    h3 {
+    color: #282938;
+    font-family: "Poppins", serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+
+
+    h6 {
+    color: #1D2130;
+    color: #282938
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+
+    p : 
+    color: rgba(40, 41, 56, 0.7);
+
+    color: #FFF;
+
+    button {
+        font-family: "Manrope", serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 32px;
+        color: #F4F6FC;
+        padding: 16px 77.5px;
+        background: #282938;
+        border: 1px solid #282938;
+        border-radius: 41px;
+        margin-top: 79px;
+        transition: all linear 0.5s;
+    }
+
+    button:hover {
+    background: transparent;
+}

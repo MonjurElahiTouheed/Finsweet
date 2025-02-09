@@ -1,0 +1,464 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* cards margin top */
+
+.cards-mt {
+    margin-top: 48px;
+}
+
+/* common css ends */
+/* navbar starts */
+.navbar {
+    background: #1C1E53;
+    padding: 16px 0;
+}
+
+.navbar-nav .nav-item a {
+    color: #BBBBCB;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item:last-child .nav-link {
+    padding-right: 48px;
+}
+
+.navbar button {
+    padding: 16px 48px;
+    background: transparent;
+    border: 1px solid rgba(244, 246, 252, 0.19);
+    border-radius: 41px;
+    color: white;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* navbar ends */
+
+/* banner starts */
+#banner {
+    margin: 128px 0;
+}
+
+#banner .banner-details .caption {
+    color: #282938;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+#banner .banner-details h1 {
+    color: #282938;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    margin-top: 8px;
+}
+
+#banner .banner-details p {
+    color: rgba(40, 41, 56, 0.7);
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    margin-top: 31px;
+    width: 484px;
+}
+
+#banner .banner-details button {
+    font-family: "Manrope", serif;
+    font-weight: 600;
+    color: #1C1E53;
+    font-size: 18px;
+    padding: 16px 56px;
+    border-radius: 41px;
+    background: #FCD980;
+    border: 1px solid #FCD980;
+    margin-top: 48px;
+}
+
+#banner .banner-details button:hover {
+    background: transparent;
+}
+
+#banner .banner-details a {
+    color: #FFFFFF;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+#banner .banner-details a img {
+    margin-left: 16px;
+}
+
+/* banner ends */
+
+/* we part starts */
+
+#we .we-content {
+    padding: 80px 0;
+    background: #F4F5F5;
+}
+
+#we .we-left-content-ml {
+    margin-left: 80px;
+}
+
+#we .we-content .caption {
+    color: #282938;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+#we .we-content h2 {
+    color: #282938;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 56px;
+    margin-top: 4px;
+}
+
+#we .we-content p {
+    color: rgba(40, 41, 56, 0.7);
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    line-height: 28px;
+    width: 515px;
+    margin-top: 16px;
+}
+
+#we .we-image img {
+    width: 100%;
+}
+/* we part ends */
+
+/* process part starts */
+#process {
+    margin: 128px 0;
+}
+
+#process h2 {
+    color: #282938;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.cards-mt {
+    margin-top: 48px;
+}
+
+#process .cards h5 {
+    color: #282938;
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-top: 32px;
+}
+
+#process .cards p {
+    color: rgba(40, 41, 56, 0.7);
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 8px;
+    width: 272px;
+}
+/* process part ends */
+/* mission part starts */
+#mission {
+    padding: 128px 0;
+    background: #EEF4FA;
+}
+
+#mission .mission-content .caption {
+    color: #282938;
+    font-weight: 500;   
+}
+
+
+#mission .mission-content h3 {
+    color: #282938;
+    font-family: "Poppins", serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    margin-top: 16px;
+}
+
+#mission .mission-content p {
+    color: rgba(40, 41, 56, 0.7);
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 16px;
+}
+
+#mission .mission-content-gap {
+    margin-top: 96px;
+}
+
+/* mission part ends */
+
+/* benefits part starts */
+#benefits {
+    margin: 128px 0;
+}
+
+#benefits .benefits-title h2 {
+    color: #282938;
+    font-family: "Poppins", serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+#benefits .cart {
+    padding: 50px 33px 48px 48px;
+    background: #F4F6FC;
+    height: 316px;
+}
+
+#benefits .cart h5 {
+    color: #282938;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 25px;
+}
+
+#benefits .cart p {
+    color: #000;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 12px;
+}
+
+#benefits .logo-number h3 {
+    color: #282938;
+    font-family: "Poppins", serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+}
+#benefits .logo-number p {
+    color: rgba(40, 41, 56, 0.7);
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+#benefits .logo-images {
+    gap: 75px;
+}
+
+/* benefits part ends */
+
+/* team part starts */
+
+#team {
+    padding: 128px 0;
+    background: #F4F6FC;
+}
+
+#team .team-title h2 {
+    color: #282938;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+
+#team .cart {
+    padding: 48px 64px 32px;
+    background: #FFF;
+    height: 344px;
+}
+
+#team .cart h6 {
+    color: #1D2130;
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-top: 30px;
+}
+
+#team .cart p {
+    color: rgba(29, 33, 48, 0.7);
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 2px;
+}
+
+#team .cart-img {
+    position: relative;
+}
+
+#team .cart-img .cart-overlay {
+    transition: all ease 0.5s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(-12deg, #5239FA, #ffffff00);
+    padding: 127px 47px 28px;
+    border-radius: 50%;
+    width: 168px;
+    height: 168px;
+    opacity: 0;
+}
+
+#team .cart-img:hover .cart-overlay {
+    opacity: 1;
+}
+
+#team .cart-img .cart-overlay a:nth-child(2){
+    margin: 0 11px;
+}
+
+/* team part ends */
+
+/* footer top part starts */
+#footer-top {
+    padding-top: 96px;
+    background: #1C1E53;
+}
+
+#footer-top .footer-top-left>p {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFF;
+    margin-top: 24px;
+    width: 399px;
+}
+
+#footer-top .footer-top-left .contact-info {
+    gap: 29px;
+    padding: 18px 137px 16px 37px;
+    background: #FCD980;
+    margin-top: 86px;
+}
+
+#footer-top .footer-top-left .contact-info h6 {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #282938;
+}
+
+#footer-top .footer-top-left .contact-info p {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    margin-top: 1px;
+}
+
+#footer-top .footer-top-right h2 {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #FFF;
+}
+
+#footer-top .footer-top-right p {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #F4F6FC;
+    margin-top: 14px;
+}
+
+#footer-top .footer-top-right .social-icons {
+    margin-top: 28px;
+}
+#footer-top .footer-top-right .social-icons a:first-child {
+    margin-left: 0;
+}
+#footer-top .footer-top-right .social-icons a {
+    margin-left: 27px;
+}
+
+/* footer top part ends */
+
+/* footer part starts */
+
+#footer {
+    padding: 32px 0;
+    background: #FFF;
+}
+
+#footer .copy p {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+
+
+
+#footer ul li a {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+#footer ul li:first-child a {
+    margin-left: 0;
+}
+#footer ul li:last-child a {
+    margin-right: 0;
+}
+
+/* footer part ends */
