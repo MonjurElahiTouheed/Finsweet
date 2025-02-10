@@ -8,6 +8,10 @@ a {
     text-decoration: none;
 }
 
+ul {
+    padding-left: 0;
+}
+
 ul,
 li {
     list-style: none;
@@ -30,11 +34,40 @@ p {
     margin-top: 48px;
 }
 
+
+.content .caption {
+    color: #282938;
+    font-weight: 500;   
+}
+
+
+.content h3 {
+    color: #232536;
+    font-family: "Poppins", serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    margin-top: 16px;
+    width: 624px;
+}
+
+.content p {
+    color: rgba(40, 41, 56, 0.7);
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 16px;
+}
+
 /* common css ends */
 /* navbar starts */
 .navbar {
     background: #1C1E53;
     padding: 16px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .navbar-nav .nav-item a {
@@ -72,30 +105,24 @@ p {
 
 /* banner starts */
 #banner {
-    margin: 128px 0;
-}
-
-#banner .banner-details .caption {
-    color: #282938;
-    font-weight: 500;
-    margin-top: 24px;
+    padding-top: 218px;
+    padding-bottom: 128px;
+    background: #1C1E53;
 }
 
 #banner .banner-details h1 {
-    color: #282938;
+    color: white;
     font-family: "Poppins", serif;
     font-weight: 600;
     font-size: 54px;
     line-height: 74px;
-    margin-top: 8px;
 }
 
 #banner .banner-details p {
-    color: rgba(40, 41, 56, 0.7);
+    color: white;
     font-family: "Poppins", serif;
     font-size: 16px;
-    margin-top: 31px;
-    width: 484px;
+    margin-top: 24px;
 }
 
 #banner .banner-details button {
@@ -103,145 +130,29 @@ p {
     font-weight: 600;
     color: #1C1E53;
     font-size: 18px;
-    padding: 16px 56px;
+    padding: 16px 48px;
     border-radius: 41px;
     background: #FCD980;
     border: 1px solid #FCD980;
-    margin-top: 48px;
+    margin-top: 32px;
 }
 
 #banner .banner-details button:hover {
     background: transparent;
-}
-
-#banner .banner-details a {
-    color: #FFFFFF;
-    font-family: "Poppins", serif;
-    font-weight: 500;
-    font-size: 16px;
-    margin-left: 40px;
-}
-
-#banner .banner-details a img {
-    margin-left: 16px;
+    color: #FFF;
 }
 
 /* banner ends */
 
-/* we part starts */
 
-#we .we-content {
-    padding: 80px 0;
-    background: #F4F5F5;
-}
-
-#we .we-left-content-ml {
-    margin-left: 80px;
-}
-
-#we .we-content .caption {
-    color: #282938;
-    font-weight: 500;
-    margin-top: 0;
-}
-
-#we .we-content h2 {
-    color: #282938;
-    font-family: "Poppins", serif;
-    font-weight: 500;
-    font-size: 38px;
-    line-height: 56px;
-    margin-top: 4px;
-}
-
-#we .we-content p {
-    color: rgba(40, 41, 56, 0.7);
-    font-family: "Poppins", serif;
-    font-size: 16px;
-    line-height: 28px;
-    width: 515px;
-    margin-top: 16px;
-}
-
-#we .we-image img {
-    width: 100%;
-}
-/* we part ends */
-
-/* process part starts */
-#process {
-    margin: 128px 0;
-}
-
-#process h2 {
-    color: #282938;
-    font-family: "Poppins", serif;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 64px;
-}
-
-.cards-mt {
-    margin-top: 48px;
-}
-
-#process .cards h5 {
-    color: #282938;
-    font-family: "Poppins", serif;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 36px;
-    margin-top: 32px;
-}
-
-#process .cards p {
-    color: rgba(40, 41, 56, 0.7);
-    font-family: "Poppins", serif;
-    font-size: 16px;
-    line-height: 28px;
-    margin-top: 8px;
-    width: 272px;
-}
-/* process part ends */
-
-/* mission part starts */
-#mission {
-    padding: 128px 0;
-    background: #EEF4FA;
-}
-
-#mission .mission-content .caption {
-    color: #282938;
-    font-weight: 500;   
-}
-
-
-#mission .mission-content h3 {
-    color: #282938;
-    font-family: "Poppins", serif;
-    font-size: 38px;
-    font-weight: 600;
-    line-height: 56px;
-    margin-top: 16px;
-}
-
-#mission .mission-content p {
-    color: rgba(40, 41, 56, 0.7);
-    font-family: "Poppins", serif;
-    font-size: 16px;
-    line-height: 28px;
-    margin-top: 16px;
-}
-
-#mission .mission-content-gap {
-    margin-top: 96px;
-}
-
-/* mission part ends */
 
 /* benefits part starts */
 #benefits {
     margin: 128px 0;
+}
+
+#benefits .benefits-mt {
+    margin-top: 96px;
 }
 
 #benefits .benefits-title h2 {
@@ -295,72 +206,126 @@ p {
 
 /* benefits part ends */
 
-/* team part starts */
 
-#team {
+/* best part starts */
+#best {
+    margin: 128px 0;
+}
+/* best part ends */
+
+/* revision part starts */
+
+#revision {
     padding: 128px 0;
     background: #F4F6FC;
 }
 
-#team .team-title h2 {
-    color: #282938;
+/* revision part ends */
+
+/* support part starts */
+
+#support {
+    margin: 128px 0;
+}
+
+/* support part ends */
+
+/* deliver part starts */
+
+#deliver {
+    padding: 128px 0;
+    background: rgba(252, 217, 128, 0.1);
+}
+
+/* deliver part ends */
+
+/* best-class part starts */
+
+#best-class {
+    margin: 128px 0;
+}
+/* best-class part ends */
+
+
+/* faq part starts */
+#Faq {
+    margin: 128px 0;
+}
+
+#Faq .faq-content-left h2 {
+    width: 301px;
     font-family: "Poppins", serif;
     font-weight: 600;
-    font-size: 48px;
-    line-height: 64px;
+    font-size: 36px;
+    line-height: 56px;
+    color: #282938;
 }
 
-
-#team .cart {
-    padding: 48px 64px 32px;
-    background: #FFF;
-    height: 344px;
-}
-
-#team .cart h6 {
-    color: #1D2130;
+#Faq .faq-content-left a {
     font-family: "Poppins", serif;
-    font-size: 24px;
     font-weight: 500;
-    line-height: 36px;
-    margin-top: 30px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2405F2;
+    margin-top: 16px;
+    display: inline-block;
 }
 
-#team .cart p {
-    color: rgba(29, 33, 48, 0.7);
+
+#Faq .faq-content-right .accordion-item {
+    border-width: 1px 0;
+}
+
+#Faq .faq-content-right .accordion-item:first-child {
+    border-top-width: 0;
+}
+
+#Faq .faq-content-right .accordion-item:last-child {
+    border-bottom-width: 0;
+}
+
+#Faq .faq-content-right .accordian-caption {
+    gap: 59px;
+    padding: 21px 0;
+}
+
+#Faq .faq-content-right .accordian-caption span {
     font-family: "Poppins", serif;
-    font-size: 16px;
-    line-height: 28px;
-    margin-top: 2px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #2405F2;
 }
 
-#team .cart-img {
-    position: relative;
+#Faq .faq-content-right .accordian-caption h4 {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282938;
 }
 
-#team .cart-img .cart-overlay {
-    transition: all ease 0.5s;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: linear-gradient(-12deg, #5239FA, #ffffff00);
-    padding: 127px 47px 28px;
-    border-radius: 50%;
-    width: 168px;
-    height: 168px;
-    opacity: 0;
+.accordion-button::after {
+    background: url('../images/faq-+.png');
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-#team .cart-img:hover .cart-overlay {
-    opacity: 1;
+.accordion-button:not(.collapsed)::after {
+    background: url('../images/faq-x.png');
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-#team .cart-img .cart-overlay a:nth-child(2){
-    margin: 0 11px;
+.accordion-body p {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #282938;
 }
 
-/* team part ends */
+/* faq part ends */
 
 /* footer top part starts */
 #footer-top {

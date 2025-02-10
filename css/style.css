@@ -100,13 +100,15 @@ p {
     background: #FCD980;
     border: 1px solid #FCD980;
     margin-top: 48px;
+    transition: 0.5s;
 }
 
 #banner .banner-details button:hover {
     background: transparent;
+    color: #FFF;
 }
 
-#banner .banner-details a {
+#banner .banner-details .banner-link {
     color: #FFFFFF;
     font-family: "Poppins", serif;
     font-weight: 500;
@@ -114,7 +116,7 @@ p {
     margin-left: 40px;
 }
 
-#banner .banner-details a img {
+#banner .banner-details .banner-link img {
     margin-left: 16px;
 }
 

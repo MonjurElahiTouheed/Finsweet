@@ -20,6 +20,15 @@ color: #282938;
     font-family: "Poppins", serif;
     font-size: 16px;
     line-height: 28px;
+    }
+
+    li {
+        color: rgba(40, 41, 56, 0.7);
+        font-family: "Poppins", serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 32px;
+    }
 
     h3 {
     color: #282938;
@@ -31,7 +40,7 @@ color: #282938;
 
     h6 {
     color: #1D2130;
-    color: #282938
+    color: #282938;
     font-family: "Poppins", serif;
     font-size: 24px;
     font-weight: 500;
@@ -58,4 +67,18 @@ color: #282938;
 
     button:hover {
     background: transparent;
+}
+
+#blog .blog-cart a {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    margin-top: 24px;
+    display: inline-block;
+}
+
+#blog .blog-cart a img {
+    margin-left: 16px;
 }
