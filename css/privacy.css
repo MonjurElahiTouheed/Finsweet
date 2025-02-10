@@ -74,14 +74,13 @@ p {
 
 /* navbar ends */
 
-/* contact part starts */
-
-#contact {
+/* privacy-heading part starts */
+#privacy-heading {
     margin-top: 128px;
     margin-bottom: 64px;
 }
 
-#contact .contact-heading h2 {
+#privacy-heading .heading h2 {
     color: #282938;
     font-family: "Poppins", serif;
     font-weight: 600;
@@ -89,86 +88,62 @@ p {
     line-height: 64px;
 }
 
-#contact .contact-heading p {
+#privacy-heading .heading p {
     color: rgba(40, 41, 56, 0.7);
     font-family: "Poppins", serif;
     font-size: 16px;
     line-height: 28px;
     margin-top: 16px;
 }
+/* privacy-heading part ends */
 
-#contact .form {
-    padding: 55px 77px 69px;
-    background: #F4F6FC;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, auto);
-    border-radius: 12px;
-    margin-top: 64px;
+/* privacy-body part starts */
+#privacy-body {
+    margin-top: 80px;
+    margin-bottom: 96px;
 }
 
-#contact .form p {
-    color: #000;
+#privacy-body .privacy-content h3 {
+    color: #282938;
+    font-family: "Poppins", serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+#privacy-body .privacy-content p {
+    color: rgba(40, 41, 56, 0.7);
     font-family: "Poppins", serif;
     font-size: 16px;
-    font-weight: 500;
     line-height: 28px;
+    margin-top: 32px;
 }
 
-#contact .form .input-fields {
+#privacy-body .privacy-content ul {
     margin-top: 24px;
+    padding-left: 1rem;
 }
 
-#contact .form .input-fields:first-child, #contact .form .input-fields:nth-child(2) {
+#privacy-body .privacy-content ul li {
+    list-style: disc;
+    color: rgba(40, 41, 56, 0.7);
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 12px;
+}
+
+#privacy-body .privacy-content ul li:first-child {
     margin-top: 0;
 }
 
-#contact .form .input-fields input, #contact .form .input-fields textarea {
-    padding: 18px 274px 18px 32px;
-    border: 1px solid rgba(0, 0, 0, 0.12);
-    margin-top: 6px;
-    border-radius: 8px;
-    background: transparent;
-    width: 438px;
+#privacy-body .privacy-content .second-title-mt {
+    margin-top: 40px;
 }
-
-#contact .form .input-fields textarea {
-    width: 98%;
-    padding-right: 650px;
-    padding-bottom: 92px;
+#privacy-body .privacy-content .last-para-mt {
+    margin-top: 16px;
 }
-
-#contact .form .message {
-    grid-column: 1 / 3;
-}
-
-#contact .form .input-fields input::placeholder, #contact .form .input-fields textarea::placeholder {
-    color: black;
-    font-family: "Poppins", serif;
-    font-size: 16px;
-    line-height: 28px;
-}
-
-#contact .form button {
-    color: #F4F6FC;
-    padding: 16px 64px;
-    background: #282938;
-    border-radius: 41px;
-    font-family: "Manrope", serif;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 32px;
-    border: 1px solid #282938;
-    border-radius: 41px;
-    margin-top: 32px;
-    transition: all linear 0.5s;
-    width: 56%;
-}
-
-button:hover {
-    background: transparent;
-}
-
-/* contact part ends */
+/* privacy-body part ends */
 
 /* footer top part starts */
 #footer-top {
