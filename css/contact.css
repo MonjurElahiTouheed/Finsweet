@@ -108,7 +108,6 @@ p {
     padding: 55px 77px 69px;
     background: #F4F6FC;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, auto);
     border-radius: 12px;
     margin-top: 64px;
 }
@@ -130,7 +129,7 @@ p {
 }
 
 #contact .form .input-fields input, #contact .form .input-fields textarea {
-    padding: 18px 274px 18px 32px;
+    padding: 18px 0 18px 32px;
     border: 1px solid rgba(0, 0, 0, 0.12);
     margin-top: 6px;
     border-radius: 8px;
@@ -140,7 +139,6 @@ p {
 
 #contact .form .input-fields textarea {
     width: 98%;
-    padding-right: 650px;
     padding-bottom: 92px;
 }
 
